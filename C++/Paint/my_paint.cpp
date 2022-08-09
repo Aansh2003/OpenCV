@@ -15,9 +15,7 @@ Mat col(200,200,CV_8UC3, cv::Scalar(255,255,255));
 Mat mask;
 int slide_value1 = 0,slide_value2=0,slide_value3=0;
 bool Iscircle = 0;
-void cbuttonCallback(int, void *){
-     Iscircle = !(circle);
-}
+
 static void CallBack(int , void*){
      r = (double) slide_value1;
      g = (double) slide_value2;
@@ -60,7 +58,6 @@ int main(int argc, char** argv)
 {
      int key = 0;
      namedWindow("My paint",1);
-     createButton("Circle",&cbuttonCallback,&Iscircle,QT_RADIOBOX);
      setMouseCallback("My paint", CallBackFunc, NULL);
      while(key!=113)
      {
