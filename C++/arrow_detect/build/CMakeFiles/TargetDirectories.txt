@@ -1,0 +1,3 @@
+/home/aansh/projects/MRM/arrow_detect/build/CMakeFiles/arrow_detect.dir
+/home/aansh/projects/MRM/arrow_detect/build/CMakeFiles/edit_cache.dir
+/home/aansh/projects/MRM/arrow_detect/build/CMakeFiles/rebuild_cache.dir
